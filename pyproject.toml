@@ -1,0 +1,16 @@
+[project]
+name = "extra-cluster-gap-quantum-decoder"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "additional-grown-decoder",
+    "matplotlib>=3.10.9",
+    "pymatching>=2.4.0",
+    "stim>=1.16.0",
+    "tqdm>=4.68.3",
+]
+
+[tool.uv.sources]
+additional-grown-decoder = { path = "additional_grown_decoder/target/wheels/additional_grown_decoder-2.3.2-cp310-abi3-manylinux_2_34_x86_64.whl" }

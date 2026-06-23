@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Decompressed files
+results/*.json.tar.bz2
+results/*.json
+results/*/*.json.tar.bz2
+results/*/*.json
+
+# VIM
+*.swp
+
+# nohup
+nohup.out
